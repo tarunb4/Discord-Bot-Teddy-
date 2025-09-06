@@ -2,7 +2,7 @@ import discord, random
 from discord.ext import commands
 
 client = commands.Bot(command_prefix = "teddy.")
- 
+#Testing commit
 @client.event
 async def on_ready():
     print("Teddy is ready for use!")
