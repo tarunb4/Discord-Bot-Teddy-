@@ -12,7 +12,7 @@ intents.guilds = True
 intents.voice_states = True
 
 client = commands.Bot(command_prefix="teddy.", intents=intents)
-
+#testing
 @client.event
 async def on_ready():
     print("Teddy is ready for use!")
